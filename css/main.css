@@ -623,6 +623,23 @@ h1{
     line-height: 25px;
 }
 
+
+div.mapa{
+    height: 450px;
+    background-image: url(../img/separador.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media only screen  and (max-width: 768px){
+    div.mapa{
+        height: 150px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
 .hidden,
 [hidden] {
   display: none !important;
